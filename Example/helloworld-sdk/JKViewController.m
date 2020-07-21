@@ -7,6 +7,7 @@
 //
 
 #import "JKViewController.h"
+#import <helloworld_sdk/JKHelloWorld.h>
 
 @interface JKViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [JKHelloWorld logger];
 }
 
 - (void)didReceiveMemoryWarning
